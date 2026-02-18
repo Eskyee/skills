@@ -60,6 +60,9 @@ npx skills add owner/repo --skill "Convex Best Practices"
 # Install to specific agents
 npx skills add vercel-labs/agent-skills -a claude-code -a opencode
 
+# Install to openclaw and github-copilot
+npx skills add vercel-labs/agent-skills -a openclaw -a github-copilot
+
 # Non-interactive installation (CI/CD friendly)
 npx skills add vercel-labs/agent-skills --skill frontend-design -g -a claude-code -y
 
